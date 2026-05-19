@@ -1,0 +1,38 @@
+{
+  "model": "mfinbert",
+  "dataset": "samples.jsonl",
+  "split_info": {
+    "train": {
+      "total": 2538,
+      "fraud": 838,
+      "non_fraud": 1700,
+      "fraud_ratio": 0.3302
+    },
+    "val": {
+      "total": 317,
+      "fraud": 136,
+      "non_fraud": 181,
+      "fraud_ratio": 0.429
+    },
+    "test": {
+      "total": 318,
+      "fraud": 102,
+      "non_fraud": 216,
+      "fraud_ratio": 0.3208
+    }
+  },
+  "test_metrics": {
+    "precision": 0.9252336448598131,
+    "recall": 0.9705882352941176,
+    "f1": 0.9473684210526315,
+    "f0_5": 0.9339622641509434,
+    "f2": 0.9611650485436893,
+    "accuracy": 0.9654088050314465,
+    "auc_roc": 0.9952342047930284,
+    "auprc": 0.9918677617204663,
+    "mcc": 0.9222145835113426,
+    "threshold": 0.24188214540481567
+  },
+  "checkpoint_path": "C:\\Users\\pmphu\\OneDrive - ut.edu.vn\\Artical\\BaoOngThay\\mfinbert_fraud_checkpoint.pt",
+  "metadata_path": "C:\\Users\\pmphu\\OneDrive - ut.edu.vn\\Artical\\BaoOngThay\\mfinbert_fraud_checkpoint.meta.json"
+}

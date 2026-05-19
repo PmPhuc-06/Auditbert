@@ -1,0 +1,40 @@
+{
+  "TT48/2019": {
+    "keywords": [
+      "du phong",
+      "no phai thu",
+      "kho doi",
+      "qua han",
+      "trich lap"
+    ],
+    "pattern": "(du phong).{0,50}(no phai thu|khoan phai thu)",
+    "violation_signals": [
+      {
+        "pattern": "du phong.{0,20}0 dong",
+        "label": "CANH_BAO"
+      },
+      {
+        "pattern": "khong trich|chua trich",
+        "label": "CANH_BAO"
+      }
+    ]
+  },
+  "VAS14": {
+    "keywords": [
+      "doanh thu",
+      "ghi nhan",
+      "dieu kien",
+      "hoa don"
+    ],
+    "pattern": "ghi nhan doanh thu.{0,80}(sai ky|truoc|khong du dieu kien)"
+  },
+  "VAS01": {
+    "keywords": [
+      "trung thuc",
+      "hop ly",
+      "ben lien quan",
+      "ngoai bang can doi"
+    ],
+    "pattern": "ben lien quan|ngoai bang can doi|che giau"
+  }
+}

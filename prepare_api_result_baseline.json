@@ -1,0 +1,38 @@
+{
+  "model": "baseline",
+  "dataset": "samples.jsonl",
+  "split_info": {
+    "train": {
+      "total": 2538,
+      "fraud": 838,
+      "non_fraud": 1700,
+      "fraud_ratio": 0.3302
+    },
+    "val": {
+      "total": 317,
+      "fraud": 136,
+      "non_fraud": 181,
+      "fraud_ratio": 0.429
+    },
+    "test": {
+      "total": 318,
+      "fraud": 102,
+      "non_fraud": 216,
+      "fraud_ratio": 0.3208
+    }
+  },
+  "test_metrics": {
+    "precision": 0.78125,
+    "recall": 0.9803921568627451,
+    "f1": 0.8695652173913043,
+    "f0_5": 0.8143322475570033,
+    "f2": 0.9328358208955224,
+    "accuracy": 0.9056603773584906,
+    "auc_roc": 0.9790305010893247,
+    "auprc": 0.9790850342105546,
+    "mcc": 0.8097547958347421,
+    "threshold": 0.413305652553222
+  },
+  "checkpoint_path": "C:\\Users\\pmphu\\OneDrive - ut.edu.vn\\Artical\\BaoOngThay\\baseline_fraud_checkpoint.pkl",
+  "metadata_path": null
+}

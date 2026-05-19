@@ -1,0 +1,22 @@
+rules:
+- id: R001
+  name: Khong trich du phong no kho doi
+  standard: TT48/2019 Dieu 6
+  trigger_pattern: 'du phong.{0,30}(0 dong|khong co|chua trich)'
+  context_require: 'no phai thu|khoan phai thu|kho doi'
+  label: CANH_BAO
+  risk: CAO
+- id: R002
+  name: Doanh thu ghi nhan sai ky
+  standard: VAS 14
+  trigger_pattern: 'ghi nhan doanh thu.{0,50}(truoc|sai ky|khong du dieu kien)'
+  context_require: 'doanh thu|hop dong|hoa don'
+  label: VI_PHAM
+  risk: CAO
+- id: R003
+  name: Rui ro ben lien quan hoac ngoai bang
+  standard: VAS 01
+  trigger_pattern: 'ben lien quan|ngoai bang can doi|che giau no'
+  context_require: 'thuyet minh|giao dich|no phai tra'
+  label: CANH_BAO
+  risk: TRUNG_BINH

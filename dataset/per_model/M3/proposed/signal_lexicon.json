@@ -1,0 +1,36 @@
+{
+  "vagueness": [
+    "nhat dinh",
+    "mot so",
+    "nhin chung",
+    "tuong doi",
+    "o mot muc do nao do",
+    "co the noi",
+    "phan lon"
+  ],
+  "hedging": [
+    "co the",
+    "du kien",
+    "hy vong",
+    "ky vong",
+    "chung toi tin rang",
+    "co kha nang",
+    "theo du bao",
+    "chung toi cho rang"
+  ],
+  "negation": [
+    "khong",
+    "chua",
+    "chang",
+    "khong the",
+    "khong co",
+    "chua duoc",
+    "khong phai"
+  ],
+  "passive_markers": [
+    "duoc thuc hien",
+    "da duoc",
+    "se duoc tien hanh",
+    "duoc xem xet"
+  ]
+}

@@ -1,0 +1,3 @@
+model: XGBoost_or_SVM
+input: features.csv
+note: features only, no PhoBERT embedding

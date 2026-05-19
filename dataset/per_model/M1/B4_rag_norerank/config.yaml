@@ -1,0 +1,6 @@
+embedding_model: BAAI/bge-m3
+vector_db: chromadb
+top_k: 5
+reranker: null
+llm: VinaLLaMA-7B-chat
+kb_source: ../proposed/kb_chunks.jsonl

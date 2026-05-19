@@ -1,0 +1,31 @@
+{
+  "dataset_version": "v1.0",
+  "seed": 42,
+  "module": "M1",
+  "splits": {
+    "train": {
+      "count": 2242,
+      "label_distribution": {
+        "CANH_BAO": 759,
+        "BINH_THUONG": 1483
+      },
+      "companies": 2242
+    },
+    "dev": {
+      "count": 480,
+      "label_distribution": {
+        "CANH_BAO": 163,
+        "BINH_THUONG": 317
+      },
+      "companies": 480
+    },
+    "test": {
+      "count": 481,
+      "label_distribution": {
+        "CANH_BAO": 163,
+        "BINH_THUONG": 318
+      },
+      "companies": 481
+    }
+  }
+}

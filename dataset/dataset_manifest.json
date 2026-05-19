@@ -1,0 +1,15 @@
+{
+  "dataset_version": "v1.0",
+  "seed": 42,
+  "source": "C:\\Users\\pmphu\\OneDrive - ut.edu.vn\\Artical\\BaoOngThay\\samples.jsonl",
+  "modules_built": [
+    "M1",
+    "M3"
+  ],
+  "policy": {
+    "test_set_shared": true,
+    "augmentation_train_only": true,
+    "tfidf_fit_train_only": true,
+    "per_model_format_required": true
+  }
+}
